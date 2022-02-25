@@ -1,5 +1,5 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.startEffect(effects.fire, 500)
+    mySprite.startEffect(effects.fountain, 500)
 })
 controller.A.onEvent(ControllerButtonEvent.Released, function () {
     effects.clearParticles(mySprite)
